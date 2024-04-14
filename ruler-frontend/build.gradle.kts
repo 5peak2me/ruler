@@ -49,7 +49,7 @@ dependencies {
     testImplementation(kotlin("test-js"))
 }
 
-val browserDist by configurations.creating {
+val browserDist: Configuration by configurations.creating {
     isCanBeConsumed = true
     isCanBeResolved = false
 }

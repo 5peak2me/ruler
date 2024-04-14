@@ -29,7 +29,8 @@ extra[EXT_POM_DESCRIPTION] = "Command line interface for Ruler"
 
 java {
     withSourcesJar()
-
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 kotlin {
