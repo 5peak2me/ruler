@@ -19,7 +19,7 @@ package com.spotify.ruler.common.dependency
 /** Responsible for parsing and extracting entries from dependencies. */
 class DependencyParser {
 
-    /** Parses and returns the list of entries contained in all dependencies of the given [project]. */
+    /** Parses and returns the list of entries contained in all dependencies of the given project. */
     fun parse(entries: List<ArtifactResult>): List<DependencyEntry> {
         val result = mutableListOf<DependencyEntry>()
 
