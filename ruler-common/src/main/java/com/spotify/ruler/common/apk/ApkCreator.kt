@@ -47,6 +47,7 @@ import java.util.zip.ZipInputStream
  */
 
 const val BUFFER_SIZE = 1024
+
 open class ApkCreator(private val androidSDKDir: File? = null) {
 
     private val rulerDebugKey = "rulerDebug.keystore"

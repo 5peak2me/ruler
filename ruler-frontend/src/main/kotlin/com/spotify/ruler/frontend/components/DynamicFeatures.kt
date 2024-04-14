@@ -23,7 +23,6 @@ import react.Props
 import react.dom.html.ReactHTML.h4
 import web.cssom.ClassName
 
-
 val DynamicFeatures = FC<DynamicFeaturesProps> { props ->
     h4 {
         className = ClassName("mb-3")

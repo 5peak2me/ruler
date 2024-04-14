@@ -36,7 +36,6 @@ kotlin {
     jvmToolchain(17)
 }
 
-
 dependencies {
     implementation(project(":ruler-models"))
     implementation(project(":ruler-common"))
