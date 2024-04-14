@@ -31,7 +31,6 @@ class RulerPlugin : Plugin<Project> {
 
     private val name: String = "ruler"
 
-    @Suppress("UnstableApiUsage")
     override fun apply(project: Project) {
         val rulerExtension = project.extensions.create(name, RulerExtension::class.java)
 
@@ -68,7 +67,6 @@ class RulerPlugin : Plugin<Project> {
         }
     }
 
-    @Suppress("UnstableApiUsage")
     private fun getAppInfo(project: Project, variant: ApplicationVariant) = project.provider {
         AppInfo(
             applicationId = variant.applicationId.get(),
